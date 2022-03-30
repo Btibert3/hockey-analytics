@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 def plot_bdc_rink(league="NWHL"):
     """
-
     Lower level utility to wrap hockey_rink package in the context of the data within this package.
+    After loading this utility, plt.show() will plot the rink.
 
     Args:
         league (str, optional): The rink to . Defaults to "NWHL".
